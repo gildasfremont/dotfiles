@@ -49,3 +49,7 @@
 [user]
 	email = gildas.fremont@gmail.com
 	name = gildas fremont
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
